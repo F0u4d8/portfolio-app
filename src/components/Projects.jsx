@@ -14,6 +14,13 @@ const Projects = () => {
   const carousel = useRef();
 
 
+  if(open){
+
+document.body.classList.add('active-modal')
+
+  }else{
+    document.body.classList.remove('active-modal')
+  }
 
   let setShow = (data) => {
     setOpen((prev) => !prev);

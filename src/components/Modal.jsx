@@ -7,8 +7,8 @@ import ImageSlider from './ImageSlider';
 
 const Modal = ({ open, setOpen, data }) => {
   const containerStyle = {
-    width: '600px',
-    height: '360px',
+    width: '80%',
+    height: '50%',
     margin: '0 auto',
     padding: '10px',
   };
@@ -22,13 +22,13 @@ const Modal = ({ open, setOpen, data }) => {
         onClick={() => {
           setOpen(!open);
         }}
-        className="modal-backdrop sm:w-[200px] sm:h-[100px]"
+        className="modal-backdrop sm:w-[200px] sm:h-[100px] "
       />
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: 1, transition: { duration: 0.3 } }}
         exit={{ scale: 0, transition: { delay: 0.3 } }}
-        className="modal  "
+        className="modal h-3/4 w-2/3 overflow-auto "
       >
         <div className="bg-[#2c698d] p-1">
           <p className="text-right text-[#e3f6f5]  m-3">
