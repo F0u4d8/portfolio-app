@@ -68,7 +68,7 @@ setData(data)
                 {data.projects.map((item) => {
                   return (
                    
-                    <motion.div className="item group " onClick={()=>setShow(item)}>
+                    <motion.div className="item h-1/3 w-1/3 group " onClick={()=>setShow(item)}>
                       <div className=" shadow-xl rounded-xl transform opacity-90   transition duration-500 hover:scale-105 hover:shadow-slate-900 hover:opacity-100">
                         {' '}
                         <img
