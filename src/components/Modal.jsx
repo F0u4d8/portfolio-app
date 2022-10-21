@@ -1,9 +1,8 @@
 import React from 'react';
 import './projects.css';
 import { motion } from 'framer-motion';
-import { FaExternalLinkAlt, FaNodeJs, FaReact } from 'react-icons/fa';
-import { DiMongodb, DiNodejs } from 'react-icons/di';
-import { SiExpress } from 'react-icons/si';
+import { FaExternalLinkAlt } from 'react-icons/fa';
+
 import ImageSlider from './ImageSlider';
 
 const Modal = ({ open, setOpen, data }) => {
