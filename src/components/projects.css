@@ -1,13 +1,30 @@
 .item {
-
-
-
-margin: 5rem;
-
-
-
-}
-
+    padding: 40px;
+  }
+  
+  @media (max-width: 767px) {
+    .item {
+      min-height: 12rem;
+      min-width: 14rem;
+      padding: 20px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .item {
+      min-height: 16rem;
+      min-width: 18rem;
+      padding: 30px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .item {
+      min-height: 20rem;
+      min-width: 22rem;
+      padding: 40px;
+    }
+  }
 
 .item img {
 

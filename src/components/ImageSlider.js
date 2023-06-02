@@ -34,8 +34,9 @@ const next =()=> {
     height: '100%',
     borderRadius: '10px',
     backgroundPosition: 'center',
-    backgroundSize: 'cover',
+    
     backgroundImage: `url(${slides[cIndex].image})`,
+    backgroundSize: 'cover',
   };
 
   const leftArrow = {

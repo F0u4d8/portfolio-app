@@ -26,7 +26,7 @@ const data = {
       },
      
       {
-        id: '1',
+        id: '2',
         name: 'Portfolio',
         images:[{image:'/images/port1.png'},{image: '/images/port2.PNG'},{image: '/images/port3.PNG'},{image: '/images/port4.png'}] ,
         github: 'https://github.com/F0u4d8/portfolio-app',
@@ -41,8 +41,24 @@ const data = {
           
         },],
       },
-     
-     
+      {
+        id: '3',
+        name: 'Tantheem ',
+        images:[{image:'/images/tanth1.png'},{image:'/images/tanth2.png'},{image:'/images/tanth3.PNG'},{image: '/images/tanth4.png'},{image: '/images/tanth5.png'},{image: '/images/tanth6.png'},{image: '/images/tanth7.png'},{image: '/images/tanth8.png'},{image: '/images/tanth9.png'},{image: '/images/tanth10.png'}] ,
+        github: 'https://github.com/F0u4d8/tantheem',
+        description: 'Tantheem is a modern and visually appealing website created using React.js and Tailwind CSS, showcasing a seamless integration of powerful front-end technologies.Upon visiting Tantheem, users are greeted with a stylish and responsive layout, offering a seamless browsing experience across various devices and screen sizes. ',
+       tech: [ {
+          name: "react",
+          class: "devicon-react-original-wordmark colored",
+          
+        },{
+          name: "tailwind css",
+          class: "devicon-tailwindcss-plain colored",
+          
+        },],
+      },
+
+    
     ],
   };
   

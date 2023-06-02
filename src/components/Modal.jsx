@@ -48,7 +48,7 @@ const Modal = ({ open, setOpen, data }) => {
         </div>
 
         <div className="  px-4 box-border m-6 ">
-          <h2 className="text-2xl text-gray-900 font-bold border-b-2 border-gray-900 ">
+          <h2 className="text-2xl text-gray-900 font-bold border-b-2 border-gray-900  ">
             {data.name}
             <a href={data.github} target="_blank" rel="noreferrer">
               <FaExternalLinkAlt className="ml-3 inline text-lg" />
